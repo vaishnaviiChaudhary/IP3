@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, p, ol, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #a19b9be6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+img.rounded-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    border: 1px solid #582c2c;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.personal-details {
+    background-color: #f3eded;
+    padding: 20px;
+    margin: 20px;
+}
+
+.skills-and-pages {
+    background-color: #f3eded;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+a.link {
+    color: #350ff0;
+    text-decoration: none;
+}
+
+table.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.styled-table, th, td {
+    border: 1px solid #111010;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+h4, h5 {
+    margin-top: 10px;
+}
+
+/* Pseudo class for hover effect on links */
+a.link:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo element to style the first letter of the paragraph */
+p span.italicize {
+    font-style: italic;
+}
+
+p span.underline {
+    text-decoration: underline;
+}
+
+p span.bold {
+    font-weight: bold;
+}
+
+span.highlight {
+    background-color: #FFFF00;
+    padding: 3px;
+    border-radius: 3px;
+}
